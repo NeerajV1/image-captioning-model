@@ -1,0 +1,22 @@
+cat << 'EOF' > .gitignore
+# Python & Environments
+__pycache__/
+*.py[cod]
+venv/
+env/
+.venv/
+.ipynb_checkpoints/
+
+# Datasets & Large Artifacts
+data/
+dataset/
+Flickr8k*/
+*.zip
+*.tar.gz
+
+# Model Checkpoints (remove if you have a small <50MB file you want tracked)
+*.pth
+*.pt
+*.ckpt
+*.h5
+EOF
